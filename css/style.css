@@ -1,10 +1,12 @@
+
+
 section#wrapper {
-				background-color:#161515;
+				background-color:#000000;
 				margin: 0 auto;
-				width: 85%;
+				width: 100%;
 
 				}
-
+/**/
 
 h1				{
 				font-weight: bold;
@@ -13,10 +15,12 @@ h1				{
 				color: #fff;
 				padding-top: 40px;
 				padding-bottom: 40px;
+				margin-top: 122px;
 				//margin: 20px auto;
 				}
 
 
+/*
 p 				{
 				line-height: 20px;
 				font-family: helvetica, sans-serif;
@@ -77,148 +81,120 @@ ul li 			{
 				line-height: 20px;
 				}
 
-
-
-
-/* Navigation bar 
-
-.mh_wrapper{
-			  height:40px;
-			  line-height:40px;
-			  position:absolute;
-			  top:80px;
-			  left:0px;
-			  font-family: "Myriad Pro", "Trebuchet MS", Helvetica, sans-serif;
-			  font-size:16px;
-			  text-transform:uppercase;
-			}
-.mh_itemMain{
-			  color:#f0f0f0;
-			  z-index:10;
-			    border:1px solid #222;
-			    background-color:#222;
-			  cursor:pointer;
-			  text-align:left;
-			  font-weight:bold;
-			  text-indent:20px;
-			  width:200px;
-			  position:absolute;
-			  top:0px;
-			  left:0px;
-			  text-shadow:1px 1px 1px #000;
-			}
-.mh_itemMain:hover{
-				  color:#fff;
-				  }
-.mh_right{
-	    width:40px;
-	    height:40px;
-	    position:absolute;
-	    left:160px;
-	    top:0px;
-	    cursor:pointer;
-	    border:1px solid #000;
-	    background:#000 url(right.png) no-repeat center center;
-		}
-.mh_wrapper ul {
-				  position:absolute;
-				  left:202px;
-				  top:0px;
-				  width:900px;
-				  list-style:none;
-				  padding:0px;
-				  height:30px;
-				}
-.mh_wrapper ul li a{
-					  text-decoration:none;
-					  cursor:pointer;
-					  display:block;
-					  float:left;
-					  margin:0px;
-					  text-indent:0px;
-					  padding:0px 10px 0px 3px;
-					  line-height:40px;
-					  height:40px;
-					  text-indent:10px;
-					  letter-spacing:1px;
-					  color:#ddd;
-					  background-color:#525252;
-					  text-shadow:1px 1px 1px #000;
-					  border:1px solid #333;
-					  border-left:none;
-					}
-.mh_wrapper ul li a.hover{
-						  background:#333;
-						  color:#fff;
-						  -moz-box-shadow:0px 0px 3px #000 inset;
-						  -webkit-box-shadow:0px 0px 3px #000 inset;
-						  box-shadow:0px 0px 3px #000 inset;
-						 }
-
 */
 
-
-/* jQuery CSS http://bit.ly/97erGc 
-
-    *{
-            padding:0;
-            margin:0;
+  *{
+                padding:0;
+                margin:0;
             }
+
              body{
                 background-color:#f0f0f0;
                 font-family:"Helvetica Neue",Arial,Helvetica,Geneva,sans-serif;
             }
-
-            */
-/*
-
-h1 			{
-                font-size:180px;
-                line-height:180px;
-                text-transform: uppercase;
-                color:#ddd;
-                position:absolute;
-                text-shadow:0 1px 0 #fff;
-                top:-25px;
-                left:-20px;
-                white-space: nowrap;
-            }
-
-
-
+         
 span.reference{
                 position:fixed;
                 left:10px;
                 bottom:10px;
                 font-size:11px;
               }
+
+
 span.reference a{
                 color:#666;
                 text-decoration:none;
                 text-transform: uppercase;
                 text-shadow:0 1px 0 #fff;
-           		 }
+                }
 
 span.reference a:hover{
-                		color:#ccc;
-            		  }
-
-.box        {
-                border:15px solid #fff;
-                margin:180px 0px 0px -15px;
-                height:240px;
-                position:relative;
-                padding:30px 10px 30px 50px;
-                -moz-box-shadow:0px 0px 2px #ccc inset;
-                -webkit-box-shadow:0px 0px 2px #ccc inset;
-                box-shadow:0px 0px 2px #ccc inset;
-                background:#f6f6f6 url(click.png) no-repeat 200px 120px;
-            }
-
-.box h2     {
+                      color:#ccc;
+                      }
+                    
+.box h2         {
                 text-transform: uppercase;
                 color:#ccc;
                 text-shadow:0 1px 0 #fff;
-            }
+                }
 
-*/
+
+
+
+
+
+/* Navigation bar */
+  .mh_wrapper{
+  height:40px;
+  line-height:40px;
+  position:absolute;
+  top:80px;
+  left:0px;
+  font-family: "Myriad Pro", "Trebuchet MS", Helvetica, sans-serif;
+  font-size:16px;
+  text-transform:uppercase;
+}
+.mh_itemMain{
+  color:#f0f0f0;
+  z-index:10;
+    border:1px solid #222;
+    background-color:#222;
+  cursor:pointer;
+  text-align:left;
+  font-weight:bold;
+  text-indent:20px;
+  width:200px;
+  position:absolute;
+  top:0px;
+  left:0px;
+  text-shadow:1px 1px 1px #000;
+}
+.mh_itemMain:hover{
+  color:#fff;
+}
+.mh_right{
+    width:40px;
+    height:40px;
+    position:absolute;
+    left:160px;
+    top:0px;
+    cursor:pointer;
+    border:1px solid #000;
+    background:#000 url(right.png) no-repeat center center;
+}
+.mh_wrapper ul {
+  position:absolute;
+  left:202px;
+  top:0px;
+  width:900px;
+  list-style:none;
+  padding:0px;
+  height:30px;
+}
+.mh_wrapper ul li a{
+  text-decoration:none;
+  cursor:pointer;
+  display:block;
+  float:left;
+  margin:0px;
+  text-indent:0px;
+  padding:0px 10px 0px 3px;
+  line-height:40px;
+  height:40px;
+  text-indent:10px;
+  letter-spacing:1px;
+  color:#ddd;
+  background-color:#525252;
+  text-shadow:1px 1px 1px #000;
+  border:1px solid #333;
+  border-left:none;
+}
+.mh_wrapper ul li a.hover{
+  background:#333;
+  color:#fff;
+  -moz-box-shadow:0px 0px 3px #000 inset;
+  -webkit-box-shadow:0px 0px 3px #000 inset;
+  box-shadow:0px 0px 3px #000 inset;
+}
+
+
