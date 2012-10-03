@@ -15,7 +15,7 @@ h1				{
 				color: #fff;
 				padding-top: 70px;
 				padding-left: 40px;
-				padding-bottom: 70px;
+				padding-bottom: 84px;
 				margin-top: 122px;
 				//margin: 20px auto;
 				}
@@ -121,13 +121,12 @@ span.reference a:hover{
 				  position: absolute;
 				  left: 202px;
 				  top: 0px;
-				  width: 900px;
 				  padding-left: 20px;
 				  padding-bottom: 20px;
 				  height: 30px;
 				  background-color: #C3C3C3;
+				  width: auto;
 	   			  height: auto;
-				  width: 240px;
 				  line-height: 20px;
 			    }
 

@@ -124,9 +124,9 @@
 				for(var i =0; i< albums.length; i++){
 				
 					$('#ui_element ul').append('<li class="album-'+albums[i].Nicename+'"></li>'); //wrapper container is created
-					$('.album-'+albums[i].Nicename).append('<li id="artistname">'+albums[i].Artist+'</li>');	 //here goes the name of the artist
-					$('.album-'+albums[i].Nicename).append('<li id="albumYear">('+albums[i].Year+')</li>'); 			// here goes the year of release
-					$('.album-'+albums[i].Nicename).prepend('<li id="albumName">'+albums[i].Name+' </h3>'); 	// album name
+					//$('.album-'+albums[i].Nicename).append('<li id="artistname">'+albums[i].Artist+'</li>');	 //here goes the name of the artist
+					//$('.album-'+albums[i].Nicename).append('<li id="albumYear">('+albums[i].Year+')</li>'); 			// here goes the year of release
+					$('.album-'+albums[i].Nicename).prepend('<a href="#"><li id="albumName">'+albums[i].Name+' </li></a>'); 	// album name
 					for(var f=0; f< albums[i].Songs.length; f++)
 
 					{
