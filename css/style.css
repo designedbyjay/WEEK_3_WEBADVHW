@@ -1,7 +1,7 @@
 
 
 section#wrapper {
-				background-color:#000000;
+				background-color: greenyellow;
 				margin: 0 auto;
 				width: 100%;
 
@@ -13,12 +13,25 @@ h1				{
 				font-family: helvetica, sans-serif;
 				font-size: 55px;
 				color: #fff;
-				padding-top: 40px;
-				padding-bottom: 40px;
+				padding-top: 70px;
+				padding-left: 40px;
+				padding-bottom: 70px;
 				margin-top: 122px;
 				//margin: 20px auto;
 				}
 
+
+p#desc {
+		color: #darkgrey;	
+		font-family: helvetica, sans-serif;
+		font-size: 30px;
+		letter-spacing: 1px;
+		line-height: 45px;
+		max-width: 590px;
+		padding-left: 40px;
+		margin-top: 20px;
+
+}
 
 /*
 p 				{
@@ -83,9 +96,7 @@ ul li 			{
 
 */
 
-  *{
-                padding:0;
-                margin:0;
+
             }
 
              body{
@@ -133,6 +144,8 @@ span.reference a:hover{
 			  font-family: "Myriad Pro", "Trebuchet MS", Helvetica, sans-serif;
 			  font-size:16px;
 			  text-transform:uppercase;
+			  background-color: #ff0000;
+			  margin-top: 1px;
 			 }
 
 .mh_itemMain{
@@ -173,6 +186,7 @@ span.reference a:hover{
 			  list-style:none;
 			  padding:0px;
 			  height:30px;
+
 				}
 				
 .mh_wrapper ul li a{

@@ -23,7 +23,7 @@
 									]
 					},
 					
-					{
+			/*		{
 						"Name": "Mickey Mouse Operation",
 						"Nicename": "mickey-mouse-operation",
 						"Artist":"Little People",
@@ -114,24 +114,31 @@
 								 
 									]
 					},
-
+*/
 
 
 			];
-			
+		
+
+
 			
 			$(document).ready(function(){
 			
 				for(var i =0; i< albums.length; i++){
 				
-					$('#ui_element ul').append('<article class="album-'+albums[i].Nicename+'"></article>'); //wrapper container is created
+					$('#ui_element ul').append('<p class="desc'+albums[i].Nicename+'"></article>'); //wrapper container is created
+					
+					
 					$('.album-'+albums[i].Nicename).append('<li id="artistname">'+albums[i].Artist+'</li>');	 //here goes the name of the artist
 					$('.album-'+albums[i].Nicename).append('<li id="albumYear">('+albums[i].Year+')</li>'); 			// here goes the year of release
 					$('.album-'+albums[i].Nicename).prepend('<li id="albumName">'+albums[i].Name+' &#8212; </h3>'); 	// album name
 					$('.album-'+albums[i].Nicename).append('<ul></ul>');  
 					for(var f=0; f< albums[i].Songs.length; f++){
+						
 						var text = '<li><p>'+albums[i].Songs[f].name+'</p><p>'+albums[i].Songs[f].track_length+'</p><p>'+albums[i].Songs[f].rating+'</p></li>';
 						$('.album-'+albums[i].Nicename+' ul').append(text);
+					/**/
+
 					}
 
 				}
@@ -140,5 +147,3 @@
 				
 			
 			});
-			
-		
