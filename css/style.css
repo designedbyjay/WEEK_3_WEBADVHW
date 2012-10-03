@@ -29,7 +29,7 @@ p#desc {
 		line-height: 45px;
 		max-width: 590px;
 		padding-left: 40px;
-		margin-top: 20px;
+		margin-top: 60px;
 
 }
 
@@ -123,12 +123,13 @@ span.reference a:hover{
 				  top: 0px;
 				  width: 900px;
 				  padding-left: 20px;
+				  padding-bottom: 20px;
 				  height: 30px;
 				  background-color: #C3C3C3;
 	   			  height: auto;
 				  width: 240px;
 				  line-height: 20px;
-			   }
+			    }
 
 
 				
@@ -175,7 +176,11 @@ li#artistname {
 				font-weight: bold;
 			  }
 
-li#albumYear {
-				font-size: 13px;
-			 }
+								li#albumYear {
+												font-size: 13px;
+											 }
 
+																	li#albumName {
+																				  font-size: 13px;
+																				  letter-spacing: 2px;
+																				 }

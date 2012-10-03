@@ -48,7 +48,7 @@
 						"Name": "Black Sands",
 						"Nicename": "black-sands-bonobo",
 						"Artist":"Bonobo",
-						"Year": "2007",
+						"Year": "2010",
 						"Songs":[ { "name": "Prelude", "track_length": "3:50", "rating": "4 Stars" },
 								  { "name": "Kiara", "track_length": "6:55", "rating": "1 Stars" },
 								  { "name": "Kong", "track_length": "3:45", "rating": "2 Stars" },
@@ -71,7 +71,7 @@
 						"Name": "Endtroducing",
 						"Nicename": "endtroducing-djshadow",
 						"Artist":"DJ Shadow",
-						"Year": "2007",
+						"Year": "1996",
 						"Songs":[ { "name": "Best Foot Forward", "track_length": "3:50", "rating": "4 Stars" },
 								  { "name": "Building Steam With A Grain Of Salt", "track_length": "6:55", "rating": "1 Stars" },
 								  { "name": "The Number Song", "track_length": "3:45", "rating": "2 Stars" },
@@ -94,7 +94,7 @@
 						"Name": "Destroyed",
 						"Nicename": "destroyed-moby",
 						"Artist":"Moby",
-						"Year": "2007",
+						"Year": "2011",
 						"Songs":[ { "name": "The Broken Places", "track_length": "3:50", "rating": "4 Stars" },
 								  { "name": "Be the One", "track_length": "6:55", "rating": "1 Stars" },
 								  { "name": "Sevastopol", "track_length": "3:45", "rating": "2 Stars" },
@@ -126,15 +126,17 @@
 					$('#ui_element ul').append('<li class="album-'+albums[i].Nicename+'"></li>'); //wrapper container is created
 					$('.album-'+albums[i].Nicename).append('<li id="artistname">'+albums[i].Artist+'</li>');	 //here goes the name of the artist
 					$('.album-'+albums[i].Nicename).append('<li id="albumYear">('+albums[i].Year+')</li>'); 			// here goes the year of release
-					$('.album-'+albums[i].Nicename).prepend('<li id="albumName">'+albums[i].Name+' &#8212; </h3>'); 	// album name
-					for(var f=0; f< albums[i].Songs.length; f++){
+					$('.album-'+albums[i].Nicename).prepend('<li id="albumName">'+albums[i].Name+' </h3>'); 	// album name
+					for(var f=0; f< albums[i].Songs.length; f++)
+
+					{
+						
 						//var text = '<li><p style="display:none;">'+albums[i].Songs[f].name+'</p><p>'+albums[i].Songs[f].track_length+'</p><p>'+albums[i].Songs[f].rating+'</p></li>'; //we'll show and hide this content
 						//$('ul.album-'+albums[i].Nicename+' ul').append(text);
 					}
 
 				}
-				
-				
+					
 				
 			
 			});
