@@ -1,25 +1,25 @@
  var albums =[
-					{
-						"Name": "Idealism",
-						"Nicename": "idealism",
-						"Artist":"Digitalism",
-						"Year": "2007",
-						"Songs":[ { "name": "Magnets", "track_length": "3:50", "rating": "4 Stars" },
-								  { "name": "Zdarlight", "track_length": "6:55", "rating": "1 Stars" },
-								  { "name": "Idealistic", "track_length": "3:45", "rating": "2 Stars" },
-								  { "name": "Digitalism in Cairo", "track_length": "3:45", "rating": "2 Stars" },
-								  { "name": "Departure from Cairo", "track_length": "3:45", "rating": "2 Stars" },
-								  { "name": "Pogo", "track_length": "3:45", "rating": "2 Stars" },
-								  { "name": "Moonlight", "track_length": "3:45", "rating": "2 Stars" },
-								  { "name": "Anything New", "track_length": "3:45", "rating": "2 Stars" },
-								  { "name": "The Pulse", "track_length": "3:45", "rating": "2 Stars" },
-								  { "name": "Homezone", "track_length": "3:45", "rating": "2 Stars" },
-								  { "name": "Apollo-Gize", "track_length": "3:45", "rating": "2 Stars" },
-								  { "name": "Jupiter Approach", "track_length": "3:45", "rating": "2 Stars" },
-								  { "name": "Jupiter Room", "track_length": "3:45", "rating": "2 Stars" },
-								  { "name": "Echoes", "track_length": "3:45", "rating": "2 Stars" }
+				{
+					"Name": "Idealism",
+					"Nicename": "idealism",
+					"Artist":"Digitalism",
+					"Year": "2007",
+					"Songs":[ { "name": "Magnets", "track_length": "3:50", "rating": "4 Stars" },
+							  { "name": "Zdarlight", "track_length": "6:55", "rating": "1 Stars" },
+							  { "name": "Idealistic", "track_length": "3:45", "rating": "2 Stars" },
+							  { "name": "Digitalism in Cairo", "track_length": "3:45", "rating": "2 Stars" },
+							  { "name": "Departure from Cairo", "track_length": "3:45", "rating": "2 Stars" },
+							  { "name": "Pogo", "track_length": "3:45", "rating": "2 Stars" },
+							  { "name": "Moonlight", "track_length": "3:45", "rating": "2 Stars" },
+							  { "name": "Anything New", "track_length": "3:45", "rating": "2 Stars" },
+							  { "name": "The Pulse", "track_length": "3:45", "rating": "2 Stars" },
+							  { "name": "Homezone", "track_length": "3:45", "rating": "2 Stars" },
+							  { "name": "Apollo-Gize", "track_length": "3:45", "rating": "2 Stars" },
+							  { "name": "Jupiter Approach", "track_length": "3:45", "rating": "2 Stars" },
+							  { "name": "Jupiter Room", "track_length": "3:45", "rating": "2 Stars" },
+							  { "name": "Echoes", "track_length": "3:45", "rating": "2 Stars" }
 
-									]
+							]
 					},
 					
 					{
@@ -120,12 +120,15 @@
 			
 			
 			$(document).ready(function(){
+
+
+
 			
 				for(var i =0; i< albums.length; i++){
 				
 					$('#ui_element ul').append('<li class="album-'+albums[i].Nicename+'"></li>'); //wrapper container is created
-					//$('.album-'+albums[i].Nicename).append('<li id="artistname">'+albums[i].Artist+'</li>');	 //here goes the name of the artist
-					//$('.album-'+albums[i].Nicename).append('<li id="albumYear">('+albums[i].Year+')</li>'); 			// here goes the year of release
+					$('.album-'+albums[i].Nicename).append('<li id="artistname">'+albums[i].Artist+'</li>');	 //here goes the name of the artist
+					$('.album-'+albums[i].Nicename).append('<li id="albumYear">('+albums[i].Year+')</li>'); 			// here goes the year of release
 					$('.album-'+albums[i].Nicename).prepend('<a href="#"><li id="albumName">'+albums[i].Name+' </li></a>'); 	// album name
 					for(var f=0; f< albums[i].Songs.length; f++)
 

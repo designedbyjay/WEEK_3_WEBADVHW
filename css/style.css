@@ -7,7 +7,7 @@ section#wrapper {
 
 				}
 /**/
-
+li {display: inline;}
 h1				{
 				font-weight: bold;
 				font-family: helvetica, sans-serif;
@@ -21,7 +21,7 @@ h1				{
 				}
 
 
-p#desc {
+div#songs {
 		color: #darkgrey;	
 		font-family: helvetica, sans-serif;
 		font-size: 30px;
@@ -121,16 +121,14 @@ span.reference a:hover{
 				  position: absolute;
 				  left: 202px;
 				  top: 0px;
-				  padding-left: 20px;
-				  padding-bottom: 20px;
 				  height: 30px;
-				  background-color: #C3C3C3;
-				  width: auto;
+				  width: 750px;
 	   			  height: auto;
 				  line-height: 20px;
 			    }
 
-
+li#artistname {display:none;}
+li#albumYear{display:none;}
 				
 .mh_wrapper ul li a{
   text-decoration:none;
