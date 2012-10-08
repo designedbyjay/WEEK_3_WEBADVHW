@@ -25,7 +25,7 @@
 					{
 						"Name": "Mickey Mouse Operation",
 						"Nicename": "mickey-mouse-operation",
-						"Artist":"Little People",
+						"Artist":"Little_People",
 						"Year": "2006",
 						"Songs":[ { "name": "Basique", "track_length": "3:45", "rating": "4 Stars" },
 								  { "name": "Moon", "track_length": "6:55", "rating": "1 Stars" },
@@ -70,7 +70,7 @@
 					{
 						"Name": "Endtroducing",
 						"Nicename": "endtroducing-djshadow",
-						"Artist":"DJ Shadow",
+						"Artist":"DJ_Shadow",
 						"Year": "1996",
 						"Songs":[ { "name": "Best Foot Forward", "track_length": "3:50", "rating": "4 Stars" },
 								  { "name": "Building Steam With A Grain Of Salt", "track_length": "6:55", "rating": "1 Stars" },
@@ -118,24 +118,29 @@
 
 			];
 			
-			
+
+
+
 			$(document).ready(function(){
-
-
 
 			
 				for(var i =0; i< albums.length; i++){
 				
 					$('#ui_element ul').append('<li class="album-'+albums[i].Nicename+'"></li>'); //wrapper container is created
-					$('.album-'+albums[i].Nicename).append('<li id="artistname">'+albums[i].Artist+'</li>');	 //here goes the name of the artist
+					$('.album-'+albums[i].Nicename).append('<li id="artistname-'+albums[i].Artist+'">'+albums[i].Artist+'</li>');	 //here goes the name of the artist
 					$('.album-'+albums[i].Nicename).append('<li id="albumYear">('+albums[i].Year+')</li>'); 			// here goes the year of release
-					$('.album-'+albums[i].Nicename).prepend('<a href="#"><li id="albumName">'+albums[i].Name+' </li></a>'); 	// album name
-					for(var f=0; f< albums[i].Songs.length; f++)
+					$('.album-'+albums[i].Nicename).prepend('<a href="#"><li id="albumName '+albums[i].Name+'">'+albums[i].Name+' </li></a>'); 	// album name
+					$('.album-'+albums[i].Nicename).append('<p id="more-info album-'+albums[i].Nicename+'"></p>'); 			// here goes the year of release
+
+
+					  $("p#moreInfo").click(function () {
+											      $(this).slideUp();
+											    });
+					//for(var f=0; f< albums[i].Songs.length; f++)
 
 					{
-						
-						//var text = '<li><p style="display:none;">'+albums[i].Songs[f].name+'</p><p>'+albums[i].Songs[f].track_length+'</p><p>'+albums[i].Songs[f].rating+'</p></li>'; //we'll show and hide this content
-						//$('ul.album-'+albums[i].Nicename+' ul').append(text);
+						//var text = '<li><p>'+albums[i].Songs[f].name+'</p><p>'+albums[i].Songs[f].track_length+'</p><p>'+albums[i].Songs[f].rating+'</p></li>'; //we'll show and hide this content
+						//$('p.album-'+albums[i].Nicename).append(text);
 					}
 
 				}
@@ -143,5 +148,8 @@
 				
 			
 			});
-			
-		
+
+
+    
+					
+	

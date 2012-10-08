@@ -8,6 +8,8 @@ section#wrapper {
 				}
 /**/
 li {display: inline;}
+
+
 h1				{
 				font-weight: bold;
 				font-family: helvetica, sans-serif;
@@ -21,7 +23,7 @@ h1				{
 				}
 
 
-div#songs {
+p#moreInfo {
 		color: #darkgrey;	
 		font-family: helvetica, sans-serif;
 		font-size: 30px;
@@ -122,7 +124,7 @@ span.reference a:hover{
 				  left: 202px;
 				  top: 0px;
 				  height: 30px;
-				  width: 750px;
+				  width: 780px;
 	   			  height: auto;
 				  line-height: 20px;
 			    }
@@ -171,13 +173,19 @@ li.album-black-sands-bonobo, li.album-endtroducing-djshadow, li.album-black-sand
 li#artistname {
 				font-size: 13px;
 				font-weight: bold;
+				display: none;
 			  }
 
-								li#albumYear {
-												font-size: 13px;
-											 }
+li#albumYear {
+				font-size: 13px;
+			 }
 
-																	li#albumName {
-																				  font-size: 13px;
-																				  letter-spacing: 2px;
-																				 }
+li#albumName {
+			  font-size: 13px;
+			  letter-spacing: 2px;
+			 }
+
+
+li#artistname-Digitalism, li#artistname-Bonobo, li#artistname-Little_People, li#artistname-Moby, li#artistname-DJ_Shadow{
+	display: none;
+}
