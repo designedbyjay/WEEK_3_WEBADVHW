@@ -1,4 +1,7 @@
-
+body        {
+                background-color: #f0f0f0;
+                font-family: "font-family: 'Source Sans Pro', sans-serif;"
+            }
 
 section#wrapper {
 				background-color: greenyellow;
@@ -6,42 +9,97 @@ section#wrapper {
 				width: 100%;
 
 				}
-/**/
-li {display: inline;}
+
+
 
 
 h1				{
 				font-weight: bold;
-				font-family: helvetica, sans-serif;
+				font-family: 'Source Sans Pro', sans-serif;
 				font-size: 55px;
 				color: #fff;
 				padding-top: 70px;
 				padding-left: 40px;
 				padding-bottom: 84px;
 				margin-top: 122px;
-				//margin: 20px auto;
+				margin-left: 88px;
 				}
 
 
 p#moreInfo {
-		color: #darkgrey;	
-		font-family: helvetica, sans-serif;
-		font-size: 30px;
-		letter-spacing: 1px;
-		line-height: 45px;
-		max-width: 590px;
-		padding-left: 40px;
-		margin-top: 60px;
+			color: #darkgrey;	
+			font-family: 'Source Sans Pro', sans-serif;
+			font-size: 32px;
+			letter-spacing: 1px;
+			line-height: 37px;
+			max-width: 960px;
+			margin-top: 80px;
+			float: left;
+			margin-left: 88px;
+			padding-left: 50px;
+			}
+				
+a#h1_home      { 
+				color: #fff;
+		  		text-decoration: none;
+				}
 
-}
 
 
-            }
+a {text-decoration: none; }
 
-body        {
-                background-color:#f0f0f0;
-                font-family:"Helvetica Neue",Arial,Helvetica,Geneva,sans-serif;
-            }
+
+img {padding-top: 70px;}
+
+
+strong            { 
+					font-weight: bold;  
+					font-size: 16px;
+					margin-left: 70px;
+				  }
+
+
+span.next {float: right;
+
+			padding-bottom: 30px;}
+
+
+p.extra {margin-left: -70px;
+		padding-top: 14px;}
+
+
+ul#songs    {
+			margin-left: 464px;
+			margin-top: -261px;
+			padding-left: 20px;
+			padding-top: 30px;
+			padding-right: 70px;
+			padding-bottom: 30px;
+			font-size: 35px;
+			line-height: 60px;
+			letter-spacing: 1.5px;
+			color: #brown;
+
+			}
+
+img.album_img {
+			/*display: block;*/
+			   padding-bottom: 130px;
+			   padding:8px;
+			   border:solid;
+			   border-color: #dddddd #aaaaaa #aaaaaa #dddddd;
+			   border-width: 1px 2px 2px 1px;
+			   background-color:white;
+			   margin-left: -8px;
+
+
+			   }
+
+
+
+
+
+
          
 span.reference{
                 position:fixed;
@@ -69,7 +127,9 @@ span.reference a:hover{
                 }
 
 
-
+#albumArtwork{ float: left;
+				margin-left: 3px;
+				padding-top: 20px;}
 
 
 
@@ -84,7 +144,7 @@ span.reference a:hover{
 			  font-size:16px;
 			  text-transform:uppercase;
 			  background-color: #ff0000;
-			  margin-top: 1px;
+			  margin-top: 0px;
 			 }
 
 .mh_itemMain{
@@ -162,12 +222,12 @@ li#albumYear{display:none;}
 
 
 
-li.album-idealism, li.album-mickey-mouse-operation, 
-li.album-black-sands-bonobo, li.album-endtroducing-djshadow, li.album-black-sands-bonobo, li.album-destroyed-moby
+li.album
 					{
 					color: #darkgrey;
 					padding-top: 20px;
 					padding-bottom: 5px;
+					display: inline;
 					}
 
 li#artistname {
